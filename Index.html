@@ -9,36 +9,84 @@
   <title>Diseño Web</title>
 </head>
 <body>
-  <h1>Actividad Diseño Web</h1>
+  <h1>Diseño Web</h1>
   <br>
-  <div id="Actividad">
-    <img src="Img/diseño web.jpg" alt="DiseñoWeb">
+  <div id="ImgYVideo">
+    <figure>
+      <img id="Img" src="Img/diseño web.jpg" alt="DiseñoWeb">
+      <br>
+      <br>
+      <figcaption>IMAGEN</figcaption>
+    </figure>
     <br>
-    <video src="Videos/Qué es diseño y desarrollo web.mp4"  width="700" height="700" controls loop></video>
+    <figure>
+      <video id="Video" src="Videos/Qué es diseño y desarrollo web.mp4" controls loop></video>
+      <br>
+      <br>
+      <figcaption>VIDEO</figcaption>
+  </figure>
+  </div>
     <br>   
-    <object data="Pdf/Páginas web.pdf" width="1000px" height="1000px"></object>
+  <div id="PdfYAudio">
+    <figure>
+      <object data="Pdf/Páginas web.pdf" id="Pdf"></object>
+      <br>
+      <br>
+      <figcaption>PDF</figcaption>
+    </figure>
     <br>
-    <audio controls loop>
-      <source src="Audios/audio.mp3">
-    </audio>
+    <figure>
+      <audio id="Audio" controls loop>
+        <source src="Audios/audio.mp3">
+      </audio>
+      <br>
+      <br>
+      <figcaption>AUDIO</figcaption>
+    </figure>
+  </div>
     <br>
+    <hr>
     <!-- Lista ordenada -->
-    <div>
-      <ol type="i">
+  <div class="Listas">
+    <figure>
+      <ol type="i" id="Ol">
         <li>Diseñar</li>
         <li>Crear</li>
         <li>Interfaz</li>
       </ol>
-    </div>
+      <br>
+      <br>
+      <figcaption>LISTA ORDENADA</figcaption>
+    </figure>
     <!-- Lista No Ordenada -->
-    <ul style="list-style: georgian;">
-      <li>Experiencia</li>
-      <li>Proyecto</li>
-      <li>Visibilidad</li>
-    </ul>
-    <br>
-      <a href="https://youtu.be/sAZ2A1bztwQ" target="_blank">Video Sobre El Diseño Web</a> <br><br>
-      <a href="https://es.wikipedia.org/wiki/Dise%C3%B1o_web" target="_blank"><img src="Img/diseno-web-scaled.jpg" alt="img" width="500px"></a>
+    <figure>
+      <ul style="list-style: georgian;" id="Ul">
+        <li>Experiencia</li>
+        <li>Proyecto</li>
+        <li>Visibilidad</li>
+      </ul>
+      <br>
+      <br>
+      <figcaption>LISTA NO ORDENADA</figcaption>
+    </figure>
+  </div>
+  <br>
+  <hr>
+  <div id="LinkYLinkImg">
+    <figure>
+      <a href="https://youtu.be/sAZ2A1bztwQ" target="_blank" id="Link">Video Sobre El Diseño Web</a> 
+      <br>
+      <br>
+      <figcaption>LINK</figcaption>
+    </figure>
+  <br>
+  <br>
+    <figure>
+      <a href="https://es.wikipedia.org/wiki/Dise%C3%B1o_web" target="_blank"><img src="Img/diseno-web-scaled.jpg" alt="img" id="LinkImg"></a>
+      <br>
+      <br>
+      <figcaption>LINK EN IMAGEN</figcaption>
+  </figure>
   </div>
 </body>
 </html>
