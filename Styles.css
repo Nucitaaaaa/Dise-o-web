@@ -20,7 +20,7 @@ ul, ol {
 
 hr {
     border-style: dashed;
-    color: white;
+    color: rgb(255, 242, 253);
 }
 
 #Img, #Video, #LinkImg {
@@ -36,7 +36,7 @@ hr {
 
 h1 {
     text-align: center;
-    color: white;
+    color: rgb(255, 242, 253);
     font-size: 45px;
     text-decoration: underline;
 }
@@ -44,7 +44,7 @@ h1 {
 li, ul, ol {
     text-align: center;
     justify-content: center;
-    color: white; 
+    color: rgb(255, 242, 253); 
     font-size: 30px;
     background-color: #93bfcf96;
     border-radius: 10px;
@@ -52,7 +52,7 @@ li, ul, ol {
 
 figcaption {
     text-align: center;
-    color: white; 
+    color: rgb(255, 242, 253); 
     font-size: 20px;
     text-decoration: underline;
 }
